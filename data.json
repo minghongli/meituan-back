@@ -444,4 +444,238 @@ category_name=饮品&restaurant_id=5&icon=
 
 
 http://localhost:3001/v1/food
+Content-Type: application/json
 restaurant_id=5&category_id=2&food_name=麦辣鸡翅2块&min_price=11.5&description=麦辣鸡翅2块（主要原料：鸡肉，腌料，裹粉，油）&pic_url=https://img.meituan.net/100.100.90/xianfudwm/43ad294d15e06e76794766da1e5c1c6d288423.png&skus=[{description: "", price: "11.5"}]
+{
+        "restaurant_id":5,
+        "category_id":2,
+        "food_name":"麦辣鸡翅2块",
+        "min_price":11.5,
+        "description": "麦辣鸡翅2块（主要原料：鸡肉，腌料，裹粉，油）",
+         "pic_url":"https://img.meituan.net/100.100.90/xianfudwm/43ad294d15e06e76794766da1e5c1c6d288423.png",
+        "skus":[{"description": "", "price": "11.5"}]
+}
+{
+"restaurant_id":5,
+"category_id":2,
+"food_name":"经典麦辣鸡腿汉堡",
+"min_price":20,
+"description": "主要原料：面包、鸡肉、生菜、风味沙拉酱",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/f975bf41cf9069e40a58b836dd87b5c9322631.png",
+"skus":[{"description": "", "price": "20"}]
+}
+{
+"restaurant_id":5,
+"category_id":2,
+"food_name":"麦辣鸡翅4块",
+"min_price":23,
+"description": "麦辣鸡翅4块（主要原料：鸡肉，腌料，裹粉，油）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/69bcc29179085db1d9faeffd402187e1312665.png",
+"skus":[{"description": "", "price": "23"}]
+}
+{
+"restaurant_id":5,
+"category_id":2,
+"food_name":"薯条（大）",
+"min_price":13,
+"description": "主要原料：薯条，油，盐",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/8b3d6e1d4d74e389e8f52dcff56b15f0254639.png",
+"skus":[{"description": "", "price": "13"}]
+}
+
+
+{
+"restaurant_id":5,
+"category_id":4,
+"food_name":"经典巨无霸",
+"min_price":23,
+"description": "主要原料：面包、牛肉、生菜、洋葱、腌黄瓜、芝士、风味沙拉酱",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "23"}]
+}
+{
+"restaurant_id":5,
+"category_id":4,
+"food_name":"经典巨无霸中薯套餐",
+"min_price":35,
+"description": "1个巨无霸 1份薯条(中) 1杯可口可乐(中)",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/5a2b3e592dd2e8827ab7fdede3f7ce85370380.png",
+"skus":[{"description": "", "price": "35"}]
+}
+{
+"restaurant_id":5,
+"category_id":4,
+"food_name":"经典巨无霸小玉套餐",
+"min_price":35,
+"description": "1个巨无霸 1个玉米杯(小) 1杯可口可乐(中)",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/5a2b3e592dd2e8827ab7fdede3f7ce85370380.png",
+"skus":[{"description": "", "price": "35"}]
+}
+{
+"restaurant_id":5,
+"category_id":4,
+"food_name":"经典巨无霸大薯套餐",
+"min_price":39,
+"description": "1个巨无霸 1份薯条(大) 1杯可口可乐(中)",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/5a2b3e592dd2e8827ab7fdede3f7ce85370380.png",
+"skus":[{"description": "", "price": "39"}]
+}
+{
+"restaurant_id":5,
+"category_id":4,
+"food_name":"经典巨无霸大玉套餐",
+"min_price":39,
+"description": "1个巨无霸 1个玉米杯(大) 1杯可口可乐(中)",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/5a2b3e592dd2e8827ab7fdede3f7ce85370380.png",
+"skus":[{"description": "", "price": "39"}]
+}
+{
+"restaurant_id":5,
+"category_id":4,
+"food_name":"经典巨无霸中玉套餐",
+"min_price":39,
+"description": "1个巨无霸 1个玉米杯(大) 1杯可口可乐(中)",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/5a2b3e592dd2e8827ab7fdede3f7ce85370380.png",
+"skus":[{"description": "", "price": "39"}]
+}
+
+
+{
+"restaurant_id":5,
+"category_id":5,
+"food_name":"经典巨无霸 汉堡",
+"min_price":23,
+"description": "主要原料：面包、牛肉、生菜、洋葱、腌黄瓜、芝士、风味沙拉酱",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "23"}]
+}
+{
+"restaurant_id":5,
+"category_id":5,
+"food_name":"经典麦辣鸡腿汉堡",
+"min_price":20,
+"description": "主要原料：面包、鸡肉、生菜、风味沙拉酱",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "20"}]
+}
+{
+"restaurant_id":5,
+"category_id":5,
+"food_name":"原味板烧鸡腿堡",
+"min_price":20,
+"description": "主要原料：面包、鸡肉、生菜、风味沙拉酱",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "20"}]
+}
+{
+"restaurant_id":5,
+"category_id":5,
+"food_name":"麦香鸡",
+"min_price":13,
+"description": "主要原料：面包、鸡肉、生菜、风味沙拉酱",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "13"}]
+}
+
+
+
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"新秀巨无霸配中薯套餐",
+"min_price":33,
+"description": "新秀巨无霸1个 中可1杯 中薯1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "33"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"新秀巨无霸配小玉套餐",
+"min_price":33,
+"description": "新秀巨无霸1个 中可1杯 小玉米1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "33"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"新秀巨无霸配大薯套餐",
+"min_price":37,
+"description": "新秀巨无霸1个 中可1杯 大薯1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "37"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"新秀巨无霸配大玉套餐",
+"min_price":37,
+"description": "新秀巨无霸1个 中可1杯 大玉米1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "37"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"经典巨无霸配中薯套餐",
+"min_price":35,
+"description": "巨无霸1个 中可1杯 中薯1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "33"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"经典巨无霸配小玉套餐",
+"min_price":35,
+"description": "巨无霸1个 中可1杯 小玉米1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "35"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"经典巨无霸配大薯套餐",
+"min_price":39,
+"description": "巨无霸1个 中可1杯 薯条1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "39"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"经典巨无霸配大玉套餐",
+"min_price":39,
+"description": "巨无霸1个 中可1杯 大玉米1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "39"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"大将巨无霸配中薯套餐",
+"min_price":43,
+"description": "大将巨无霸1个 中可1杯 中薯1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "43"}]
+}
+{
+"restaurant_id":5,
+"category_id":6,
+"food_name":"大将巨无霸配小玉套餐",
+"min_price":43,
+"description": "大将巨无霸1个 中可1杯 小玉米1份（主要原料：牛肉，巨无霸酱，生菜，芝士片，洋葱，酱菜，面包，可乐，土豆）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/3d1b7f4d23ed4a5beb5dd6d38a7e127b375632.png",
+"skus":[{"description": "", "price": "43"}]
+}
+
+{
+"restaurant_id":5,
+"category_id":7,
+"food_name":"麦辣鸡翅4块",
+"min_price":23,
+"description": "麦辣鸡翅4块（主要原料：鸡肉，腌料，裹粉，油）",
+"pic_url":"https://img.meituan.net/100.100.90/xianfudwm/69bcc29179085db1d9faeffd402187e1312665.png",
+"skus":[{"description": "", "price": "23"}]
+}

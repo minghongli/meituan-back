@@ -19,7 +19,8 @@ router.get('/my_restaurant', Auth.authAdmin, Restaurant.myRestaurant);      //�
 
 router.post('/category', Foods.addCategory);         //添加食物分类
 router.get('/category/:restaurant_id', Restaurant.getCategory);    //获取指定餐馆食物分类
-router.post('/food', Auth.authAdmin, Foods.addFood);         //添加食物
+//router.post('/food', Auth.authAdmin, Foods.addFood);         //添加食物
+router.post('/food', Foods.addFood);         //添加食物
 router.get('/food/:restaurant_id', Restaurant.getFoods);         //获取指定餐馆食物列表
 router.delete('/food/:food_id', Auth.authAdmin, Foods.deleteFood);      //删除食物
 

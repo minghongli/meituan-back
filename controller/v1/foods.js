@@ -74,7 +74,9 @@ class Foods extends BaseClass {
                 pic_url,
                 skus
             }
-            let addFoods = new FoodModel(food_data).save();
+
+            //lmh修改(旧版本 new FoodModel(food_data).save())
+            let addFoods =await new FoodModel(food_data).save();
             let category = await CategoryModel.findOne({id: category_id});
             let updateCategory = category.spus.push(addFoods._id);
             await category.save();

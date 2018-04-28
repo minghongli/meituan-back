@@ -59,6 +59,9 @@ export default class BaseClass {
             return
         }
         try {
+/*            Ids.findOne({},function(err,adventure){
+                console.log(11);
+            })*/
             const idData = await Ids.findOneAndUpdate({}, {'$inc': {[type_id]: 1}});
             return ++idData[type_id];                //返回当前类型id数量*/
         } catch (err) {
